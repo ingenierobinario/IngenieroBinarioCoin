@@ -1,4 +1,4 @@
-// Copyright (c) 2020 The Dash Core developers
+// Copyright (c) 2020 The Ingenierobinariocoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -24,7 +24,7 @@ BOOST_AUTO_TEST_CASE(ps_collatoral_tests)
     BOOST_CHECK(CPrivateSend::IsCollateralAmount(0.00019000 * COIN));
 
     // Bad collateral values
-    BOOST_CHECK(!CPrivateSend::IsCollateralAmount(0.00009999 * COIN));
+    BOOST_CHECK(!CPrivateSend::IsCollateralAmount(0.00001993 * COIN));
     BOOST_CHECK(!CPrivateSend::IsCollateralAmount(0.00040001 * COIN));
     BOOST_CHECK(!CPrivateSend::IsCollateralAmount(0.00100000 * COIN));
     BOOST_CHECK(!CPrivateSend::IsCollateralAmount(0.00100001 * COIN));

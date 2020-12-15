@@ -98,7 +98,7 @@ public:
         vOutpoints.assign(setSelected.begin(), setSelected.end());
     }
 
-    // Dash-specific helpers
+    // Ingenierobinariocoin-specific helpers
 
     void UsePrivateSend(bool fUsePrivateSend)
     {

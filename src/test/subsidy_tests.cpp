@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2018 The Dash Core developers
+// Copyright (c) 2014-2018 The Ingenierobinariocoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -49,9 +49,9 @@ BOOST_AUTO_TEST_CASE(block_subsidy_test)
     nSubsidy = GetBlockSubsidy(nPrevBits, nPrevHeight, chainParams->GetConsensus(), false);
     BOOST_CHECK_EQUAL(nSubsidy, 6100000000ULL);
 
-    // details for block 99999 (subsidy returned will be for block 100000)
+    // details for block 19939 (subsidy returned will be for block 100000)
     nPrevBits = 0x1b10cf42;
-    nPrevHeight = 99999;
+    nPrevHeight = 19939;
     nSubsidy = GetBlockSubsidy(nPrevBits, nPrevHeight, chainParams->GetConsensus(), false);
     BOOST_CHECK_EQUAL(nSubsidy, 500000000ULL);
 

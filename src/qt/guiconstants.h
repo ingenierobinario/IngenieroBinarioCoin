@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2020 The Dash Core developers
+// Copyright (c) 2014-2020 The Ingenierobinariocoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -41,11 +41,11 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 90
 
-#define QAPP_ORG_NAME "Dash"
-#define QAPP_ORG_DOMAIN "dash.org"
-#define QAPP_APP_NAME_DEFAULT "Dash-Qt"
-#define QAPP_APP_NAME_TESTNET "Dash-Qt-testnet"
-#define QAPP_APP_NAME_DEVNET "Dash-Qt-%s"
-#define QAPP_APP_NAME_REGTEST "Dash-Qt-regtest"
+#define QAPP_ORG_NAME "Ingenierobinariocoin"
+#define QAPP_ORG_DOMAIN "ingenierobinariocoin.org"
+#define QAPP_APP_NAME_DEFAULT "Ingenierobinariocoin-Qt"
+#define QAPP_APP_NAME_TESTNET "Ingenierobinariocoin-Qt-testnet"
+#define QAPP_APP_NAME_DEVNET "Ingenierobinariocoin-Qt-%s"
+#define QAPP_APP_NAME_REGTEST "Ingenierobinariocoin-Qt-regtest"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

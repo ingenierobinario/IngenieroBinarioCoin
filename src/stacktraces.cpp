@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2019 The Dash Core developers
+// Copyright (c) 2014-2019 The Ingenierobinariocoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,7 +10,7 @@
 #include <util.h>
 #include <utilstrencodings.h>
 
-#include <dash-config.h>
+#include <ingenierobinariocoin-config.h>
 
 #include <mutex>
 #include <map>

@@ -135,7 +135,7 @@ public:
 };
 
 /**
- * Dash RPC command dispatcher.
+ * Ingenierobinariocoin RPC command dispatcher.
  */
 class CRPCTable
 {
