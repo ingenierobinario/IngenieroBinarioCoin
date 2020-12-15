@@ -1,5 +1,5 @@
 ---
-name: "dash-win-0.16"
+name: "ingenierobinariocoin-win-0.16"
 enable_cache: true
 suites:
 - "bionic"
@@ -26,8 +26,8 @@ packages:
 - "rename"
 - "ccache"
 remotes:
-- "url": "https://github.com/dashpay/dash.git"
-  "dir": "dash"
+- "url": "https://github.com/ingienierobinario/ingenierobinariocoin.git"
+  "dir": "ingenierobinariocoin"
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped
@@ -135,7 +135,7 @@ script: |
   create_per-host_linker_wrapper "2000-01-01 12:00:00"
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd dash
+  cd ingenierobinariocoin
   BASEPREFIX=`pwd`/depends
   # Build dependencies for each host
   for i in $HOSTS; do
